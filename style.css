@@ -1,0 +1,29 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    text-align: center; 
+    font-family: Georgia, 'sans-serif';
+
+}
+
+p {
+    margin-top: 5px;
+    text-align: justify
+
+}
+
+#searchButton {
+    display: block;
+    margin: 2rem auto;
+    padding: 1rem 4rem 1rem 4rem;
+    background-color: lightcoral;
+    border: 2px solid rgb(99, 13, 68);
+    font-size: 
+
+}
+
+
