@@ -24,9 +24,10 @@
         <div>
                 <figure>
                         <figcaption>Listen to the latest hits </figcaption>
-                        <audio id="playback" controls src=""> 
-                                Your browser does not support the
-                                <code>audio</code> element.
+                        <audio id="audio" src="" class="music-bar" controls="controls" type="audio/mpeg"> 
+                            <source id='music-source' src="" type='audio/mpeg'/>    
+                            <!-- Your browser does not support the
+                                <code>audio</code> element. -->
                         </audio>
                 </figure>
         </div>
@@ -39,8 +40,8 @@
         </div>
         </forum>
 
-        <div id="display">
-            <p> Information requested </p>
+        <div class="flex" id="display">
+            <section id="artist-results">  </section>
         </div>
 
        
