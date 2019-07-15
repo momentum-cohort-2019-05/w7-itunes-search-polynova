@@ -22,16 +22,13 @@ function displayNode (result) {
     displayDiv.classList
     displayDiv.innerHTML = `
 
-    <div class="artistName">
-        <div>
-            <img src="${result.artworkUrl100}">         
-            <div>
+        <div class="artist">
+            <img class="artimage" src="${result.artworkUrl100}">         
                 <h3> ${result.artistName} </h3>
                 <h4> ${result.trackName} <h4>   
                 <button class="listenToSample" src="${result.previewUrl}" id="listen" value="Listen Now!"> Listen Now! </button>
-            </div>
         </div>        
-    </div>
+  
     `
     return displayDiv
 }
@@ -103,7 +100,8 @@ q('#artist-results').addEventListener ('click',  function(event){
 
 var colour="#fadadd";
 var sparkles=300;
-// below this is from online but I understand what its doing. I did modify the color and the amount of times sparkles comes out.
+// below this is from online but I understand what its doing. I did modify 
+// the color and the amount of times sparkles comes out.
 var x=ox=400;
 var y=oy=300;
 var swide=800;
