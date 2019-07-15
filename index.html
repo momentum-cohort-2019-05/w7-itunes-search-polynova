@@ -1,42 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<div>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta charset="UFT-8">
         <script src="main.js" defer></script>
+        <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
         <link rel="stylesheet" href="style.css">
 
-            <title>  Place title here  </title>
+            <title>  Itunes Search  </title>
     </head>
     
 
-    <div>
-            <header> Place header here </header>
-        
-    </div>
 
-
-    <body class="body" background="https://img5.goodfon.com/wallpaper/nbig/e/40/jordan-geiger-by-jordan-geiger-aesthetic-40-f40-forza-horizo.jpg">
+    <body class="body" style="background: url(https://img5.goodfon.com/wallpaper/nbig/e/40/jordan-geiger-by-jordan-geiger-aesthetic-40-f40-forza-horizo.jpg) no-repeat center center fixed; background-size: cover;">
         <h1 class="header1"> Itunes Music Search </h1>
 
-        <div>
+        <div class="musicBar">
                 <figure>
-                        <figcaption>Listen to the latest hits </figcaption>
+                        <figcaption> Now Playing </figcaption>
                         <audio id="audio" src="" class="music-bar" controls="controls" type="audio/mpeg"> 
-                            <source id='music-source' src="" type='audio/mpeg'/>    
+                            <source class="music-bar" id='music-source' src="" type='audio/mpeg'/>    
                             <!-- Your browser does not support the
                                 <code>audio</code> element. -->
                         </audio>
-                </figure>
+                </figure>   
         </div>
 
-
+    </body>
        
         <forum>
         <div>
-            <input id="searchBar" type="text" name="q"> <button class="button" id="searchButton"> Search </button>
+            <input id="searchBar" type="text"> <button class="button f6 dim no-underline br-pill ba bw2 ph3 pv2 mb2 dib light-red" id="searchButton"> Search </button>
         </div>
         </forum>
 
@@ -44,10 +41,12 @@
             <section id="artist-results">  </section>
         </div>
 
-       
+       <div>
+
+       </div>
     </body>
 
 
-
+</div>
 
 </html>
