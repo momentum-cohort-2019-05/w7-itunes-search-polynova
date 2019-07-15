@@ -23,10 +23,10 @@ function displayNode (result) {
     displayDiv.innerHTML = `
 
         <div class="artist">
-            <img class="artimage" src="${result.artworkUrl100}">         
                 <h3> ${result.artistName} </h3>
+            <img class="artimage" src="${result.artworkUrl100}">         
                 <h4> ${result.trackName} <h4>   
-                <button class="listenToSample" src="${result.previewUrl}" id="listen" value="Listen Now!"> Listen Now! </button>
+                <button class="listenToSample dim" src="${result.previewUrl}" id="listen" value="Listen Now!"> Listen Now! </button>
         </div>        
   
     `

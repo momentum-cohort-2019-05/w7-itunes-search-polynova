@@ -80,11 +80,12 @@ audio {
     width: 200px;
     height:200px;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .artimage {
     border-radius: 20px;
-
+    
 }
 
 .listenToSample {
@@ -93,7 +94,7 @@ audio {
     height: 40px;
     width: 100px;
     border-color: orchid;
-    color: white;
+    color: lightcoral;
 }
 
 /* #searchButton {
